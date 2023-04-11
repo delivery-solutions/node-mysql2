@@ -1,6 +1,6 @@
 {
-  "name": "mysql2",
-  "version": "3.2.0",
+  "name": "@deliverysolutions/mysql2",
+  "version": "1.0.0",
   "description": "fast mysql driver. Implements core protocol, prepared statements, ssl and compression in native JS",
   "main": "index.js",
   "directories": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidorares/node-mysql2"
+    "url": "https://github.com/ds-arb/node-mysql2"
   },
   "keywords": [
     "mysql",
@@ -52,7 +52,7 @@
   "engines": {
     "node": ">= 8.0"
   },
-  "author": "Andrey Sidorov <andrey.sidorov@gmail.com>",
+  "author": "Delivery Solutions <techleads@deliverysolutions.co>",
   "license": "MIT",
   "dependencies": {
     "denque": "^2.1.0",
