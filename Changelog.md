@@ -1,5 +1,63 @@
 # Changelog
 
+## [3.3.3](https://github.com/sidorares/node-mysql2/compare/v3.3.2...v3.3.3) (2023-05-27)
+
+
+### Bug Fixes
+
+* add package.json to exports ([#2026](https://github.com/sidorares/node-mysql2/issues/2026)) ([09fd305](https://github.com/sidorares/node-mysql2/commit/09fd3059cd91c655e494e40dc4365e58ed069b13))
+
+## [3.3.2](https://github.com/sidorares/node-mysql2/compare/v3.3.1...v3.3.2) (2023-05-23)
+
+
+### Bug Fixes
+
+* respect enableKeepAlive option ([#2016](https://github.com/sidorares/node-mysql2/issues/2016)) ([f465c3e](https://github.com/sidorares/node-mysql2/commit/f465c3edc707d34a11d9b1796b9472824fdb35df))
+
+## [3.3.1](https://github.com/sidorares/node-mysql2/compare/v3.3.0...v3.3.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* LRU constructor ([#2004](https://github.com/sidorares/node-mysql2/issues/2004)) ([fd3d117](https://github.com/sidorares/node-mysql2/commit/fd3d117da82cc5c5fa5a3701d7b33ca77691bc61))
+* Missing types in "mysql" import ([#1995](https://github.com/sidorares/node-mysql2/issues/1995)) ([b8c79d0](https://github.com/sidorares/node-mysql2/commit/b8c79d055762e927da147d08fb375cd11d303868))
+
+## [3.3.0](https://github.com/sidorares/node-mysql2/compare/v3.2.4...v3.3.0) (2023-05-06)
+
+
+### Features
+
+* Added updated/new error codes gathered from MySQL 8.0 source code ([#1990](https://github.com/sidorares/node-mysql2/issues/1990)) ([85dc6e5](https://github.com/sidorares/node-mysql2/commit/85dc6e56310db1d78078588f48714f574873eec3))
+
+## [3.2.4](https://github.com/sidorares/node-mysql2/compare/v3.2.3...v3.2.4) (2023-04-25)
+
+
+### Bug Fixes
+
+* **server:** Added missing encoding argument to server-handshake ([#1976](https://github.com/sidorares/node-mysql2/issues/1976)) ([a4b6b22](https://github.com/sidorares/node-mysql2/commit/a4b6b223434d1cbdb5af9141cf3bd085459bb6b8))
+
+## [3.2.3](https://github.com/sidorares/node-mysql2/compare/v3.2.2...v3.2.3) (2023-04-16)
+
+
+### Bug Fixes
+
+* **types:** add decimalNumbers to createConnection/createPool typings. fixes [#1803](https://github.com/sidorares/node-mysql2/issues/1803) ([#1817](https://github.com/sidorares/node-mysql2/issues/1817)) ([bb48462](https://github.com/sidorares/node-mysql2/commit/bb48462db7b83bd4825a3d53e192e5363139ec3c))
+
+## [3.2.2](https://github.com/sidorares/node-mysql2/compare/v3.2.1...v3.2.2) (2023-04-16)
+
+
+### Bug Fixes
+
+* `ConnectionOptions` conflict between `mysql` and `mysql/promise` ([#1955](https://github.com/sidorares/node-mysql2/issues/1955)) ([eca8bda](https://github.com/sidorares/node-mysql2/commit/eca8bda9305ab07cf0e46f16f3f13bf1fd82787d))
+
+## [3.2.1](https://github.com/sidorares/node-mysql2/compare/v3.2.0...v3.2.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* Add typings for Connection.promise(). ([#1949](https://github.com/sidorares/node-mysql2/issues/1949)) ([e3ca310](https://github.com/sidorares/node-mysql2/commit/e3ca3107cbae0050d307f02514598aff4e8ecd60))
+* PoolConnection redundancy when extending Connection interface in TypeScript ([7c62d11](https://github.com/sidorares/node-mysql2/commit/7c62d1177e79b5063a11fa15a2ac4e3dc3e2a2ed))
+
 ## [3.2.0](https://github.com/sidorares/node-mysql2/compare/v3.1.2...v3.2.0) (2023-03-03)
 
 
