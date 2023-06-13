@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.3.5](https://github.com/sidorares/node-mysql2/compare/v3.3.4...v3.3.5) (2023-06-12)
+
+
+### Bug Fixes
+
+* `createPool` `promise` as `PromisePool` ([#2060](https://github.com/sidorares/node-mysql2/issues/2060)) ([ff3c36c](https://github.com/sidorares/node-mysql2/commit/ff3c36ca8b092f8ab16fc81400f6c63524cd971d))
+* keepAliveInitialDelay not taking effect ([#2043](https://github.com/sidorares/node-mysql2/issues/2043)) ([585911c](https://github.com/sidorares/node-mysql2/commit/585911c5d5d4b933e32e5a646574af222b63f530))
+
+## [3.3.4](https://github.com/sidorares/node-mysql2/compare/v3.3.3...v3.3.4) (2023-06-11)
+
+
+### Bug Fixes
+
+* `PromisePoolConnection` import name ([76db54a](https://github.com/sidorares/node-mysql2/commit/76db54a91e2f9861605d5975158701233879d02c))
+* `releaseConnection` types and promise ([4aac9d6](https://github.com/sidorares/node-mysql2/commit/4aac9d6a1b379253fa90195ffdc98886b3b87a1b))
+
 ## [3.3.3](https://github.com/sidorares/node-mysql2/compare/v3.3.2...v3.3.3) (2023-05-27)
 
 
